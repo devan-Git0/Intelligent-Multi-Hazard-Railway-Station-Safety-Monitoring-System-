@@ -1,0 +1,13 @@
+# Tested with Python 3.10 -- matches JetPack 6.x's default system Python.
+
+opencv-python
+numpy
+torch
+torchvision
+ultralytics
+# ByteTrack is deprecated in supervision 0.28+ and removed in 0.31, so pin below that.
+supervision>=0.21,<0.31
+pyttsx3
+requests
+streamlit>=1.50
+pandas
